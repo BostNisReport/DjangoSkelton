@@ -1,0 +1,628 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-27 01:50+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: company/templates/_dialogs.html:12
+msgid "REFINE YOUR SEARCH"
+msgstr ""
+
+#: company/templates/_dialogs.html:21
+msgid "Company Size"
+msgstr ""
+
+#: company/templates/_dialogs.html:26 company/templates/home.html.py:41
+msgid "All Sizes"
+msgstr ""
+
+#: company/templates/_dialogs.html:38
+msgid "Company Class"
+msgstr ""
+
+#: company/templates/_dialogs.html:43
+msgid "All Classes"
+msgstr ""
+
+#: company/templates/_dialogs.html:55
+msgid "Number of wheels"
+msgstr ""
+
+#: company/templates/_dialogs.html:60
+msgid "All Wheels"
+msgstr ""
+
+#: company/templates/_dialogs.html:74
+msgid "APPLY FILTERS"
+msgstr ""
+
+#: company/templates/_dialogs.html:89
+msgid "Company added"
+msgstr ""
+
+#: company/templates/_dialogs.html:92
+msgid "Cart was successfully updated"
+msgstr ""
+
+#: company/templates/_dialogs.html:111
+msgid "Password reset successful"
+msgstr ""
+
+#: company/templates/_dialogs.html:114
+msgid ""
+"We've emailed you instructions for setting your password. You should be "
+"receiving them shortly."
+msgstr ""
+"We've emailed you instructions for resetting your password. You should be "
+"receiving them shortly."
+
+#: company/templates/_dialogs.html:116
+msgid ""
+"If you don't receive an email, please make sure you've entered the address "
+"you registered with, and check your spam folder."
+msgstr ""
+"If you don't receive an email, please make sure you've entered your correct "
+"email address and check your spam folder."
+
+#: company/templates/_dialogs.html:137
+msgid "Reset your password"
+msgstr ""
+
+#: company/templates/_dialogs.html:140 company/templates/_dialogs.html:163
+#: company/templates/_dialogs.html:192 company/templates/account.html.py:19
+#: company/templates/login.html:17 company/templates/signup.html.py:17
+msgid "Email"
+msgstr ""
+
+#: company/templates/_dialogs.html:142
+msgid "RESET"
+msgstr ""
+
+#: company/templates/_dialogs.html:144 company/templates/_dialogs.html:173
+#: company/templates/signup.html.py:27
+msgid "Already have an account?"
+msgstr ""
+
+#: company/templates/_dialogs.html:144 company/templates/_dialogs.html:173
+#: company/templates/signup.html.py:27
+msgid "Sign in"
+msgstr "Log in"
+
+#: company/templates/_dialogs.html:160
+msgid "Signup to checkout"
+msgstr "Sign up to checkout"
+
+#: company/templates/_dialogs.html:167 company/templates/account.html.py:23
+#: company/templates/signup.html:21
+msgid "Phone"
+msgstr ""
+
+#: company/templates/_dialogs.html:169 company/templates/_dialogs.html:194
+#: company/templates/account.html.py:27 company/templates/login.html:19
+#: company/templates/signup.html.py:23
+msgid "Password"
+msgstr ""
+
+#: company/templates/_dialogs.html:171 company/templates/signup.html.py:25
+msgid "SIGNUP"
+msgstr "SIGN UP"
+
+#: company/templates/_dialogs.html:189
+msgid "Signin to checkout"
+msgstr "Log in to checkout"
+
+#: company/templates/_dialogs.html:196 company/templates/already_reset.html:19
+#: company/templates/login.html:21
+msgid "SIGNIN"
+msgstr "LOG IN"
+
+#: company/templates/_dialogs.html:198 company/templates/login.html.py:23
+msgid "Don’t have an account?"
+msgstr "Don't have an account?"
+
+#: company/templates/_dialogs.html:198 company/templates/login.html.py:23
+msgid "Signup"
+msgstr "Sign up"
+
+#: company/templates/_dialogs.html:199 company/templates/login.html.py:24
+msgid "Forgot Password?"
+msgstr ""
+
+#: company/templates/_dialogs.html:216 company/templates/_dialogs.html:255
+msgid "Add Delivery Address"
+msgstr ""
+
+#: company/templates/_dialogs.html:221
+msgid "Name"
+msgstr ""
+
+#: company/templates/_dialogs.html:227
+msgid "Street Address"
+msgstr ""
+
+#: company/templates/_dialogs.html:233 company/templates/home.html.py:31
+msgid "Select City"
+msgstr ""
+
+#: company/templates/_dialogs.html:240 company/templates/home.html.py:26
+msgid "Select State"
+msgstr ""
+
+#: company/templates/_dialogs.html:245 company/templates/home.html.py:18
+msgid "Select Country"
+msgstr ""
+
+#: company/templates/_dialogs.html:249
+msgid "Zipcode"
+msgstr ""
+
+#: company/templates/_dialogs.html:273
+msgid "Add Payment Method"
+msgstr ""
+
+#: company/templates/_dialogs.html:278
+msgid "Card Number"
+msgstr ""
+
+#: company/templates/_dialogs.html:284
+msgid "Name on Card"
+msgstr ""
+
+#: company/templates/_dialogs.html:290
+msgid "Expiry"
+msgstr ""
+
+#: company/templates/_dialogs.html:294
+msgid "Month"
+msgstr ""
+
+#: company/templates/_dialogs.html:302
+msgid "Year"
+msgstr ""
+
+#: company/templates/_dialogs.html:309
+msgid "CVV"
+msgstr ""
+
+#: company/templates/_dialogs.html:315
+msgid "Add Credit Card"
+msgstr ""
+
+#: company/templates/account.html:9
+msgid "Your Account"
+msgstr ""
+
+#: company/templates/account.html:13
+msgid "Basic Info"
+msgstr ""
+
+#: company/templates/account.html:29
+msgid "Confirm Password"
+msgstr ""
+
+#: company/templates/account.html:31
+msgid "Update Info"
+msgstr ""
+
+#: company/templates/account.html:38
+msgid "Address"
+msgstr ""
+
+#: company/templates/account.html:38 company/templates/account.html.py:68
+msgid "Add New"
+msgstr ""
+
+#: company/templates/account.html:46 company/templates/account.html.py:57
+#: company/templates/account.html:76 company/templates/account.html.py:87
+#: company/templates/cart.html:48 company/templates/cart.html.py:97
+#: company/templates/cart.html:134
+msgid "Remove"
+msgstr ""
+
+#: company/templates/account.html:64 company/templates/cart.html.py:104
+msgid "You don't have any addresses yet"
+msgstr "You don't have any address registerd yet"
+
+#: company/templates/account.html:68
+msgid "Payment Methods"
+msgstr ""
+
+#: company/templates/account.html:94 company/templates/cart.html.py:141
+msgid "You don't have any payments yet"
+msgstr "You don't have any payment method registered"
+
+#: company/templates/admin/base_site.html:4
+msgid "Django site admin"
+msgstr ""
+
+#: company/templates/already_reset.html:13
+msgid "Password reset complete"
+msgstr "Password reset sucessfull"
+
+#: company/templates/already_reset.html:16
+msgid "Your password has been set.  You may go ahead and log in"
+msgstr "Your password has been set. You may now log in"
+
+#: company/templates/base.html:42
+msgid "Toggle navigation"
+msgstr ""
+
+#: company/templates/base.html:47
+msgid "Get Company"
+msgstr ""
+
+#: company/templates/base.html:53 company/templates/cart.html.py:74
+#: company/templates/orders.html:72
+msgid "Find your company"
+msgstr ""
+
+#: company/templates/base.html:57
+msgid "How does it work"
+msgstr ""
+
+#: company/templates/base.html:60 company/templates/home.html.py:124
+msgid "Testimonials"
+msgstr ""
+
+#: company/templates/base.html:65
+msgid "Current Orders"
+msgstr ""
+
+#: company/templates/base.html:69
+msgid "Your account"
+msgstr ""
+
+#: company/templates/base.html:72
+msgid "Settings"
+msgstr ""
+
+#: company/templates/base.html:75
+msgid "Logout"
+msgstr ""
+
+#: company/templates/base.html:81
+msgid "Login"
+msgstr "Log in"
+
+#: company/templates/base.html:90
+msgid "Cart"
+msgstr ""
+
+#: company/templates/base.html:115
+msgid "Got Questions? Call us on +8723 3764873"
+msgstr "Got Questions? Call us on +52 55 67190944"
+
+#: company/templates/base.html:122 company/templates/base_internal.html:21
+msgid "©2016 GetLugagge Inc. All rights reserved."
+msgstr "©2016 Luggary Inc. All rights reserved."
+
+#: company/templates/cart.html:34 company/templates/details.html.py:56
+#: company/templates/orders.html:34 company/templates/search.html.py:50
+msgid "day"
+msgstr ""
+
+#: company/templates/cart.html:37 company/templates/details.html.py:63
+msgid "Quantity"
+msgstr ""
+
+#: company/templates/cart.html:41 company/templates/details.html.py:67
+msgid "Days"
+msgstr ""
+
+#: company/templates/cart.html:55
+#, python-format
+msgid "Subtotal (<span>%(count)s</span> Items)"
+msgstr ""
+
+#: company/templates/cart.html:56 company/templates/details.html.py:58
+#, python-format
+msgid ""
+"You’re saving $<b>%(total_save)s</b>%(sfx)s by renting these items and not "
+"buying them. Spend it on your trip"
+msgstr ""
+"You're saving $<b>%(total_save)s</b>%(sfx)s by renting these items and not "
+"buying them."
+
+#: company/templates/cart.html:63
+msgid "CHECKOUT NOW"
+msgstr ""
+
+#: company/templates/cart.html:69
+msgid "Your cart is empty"
+msgstr ""
+
+#: company/templates/cart.html:86
+msgid "Select Address"
+msgstr ""
+
+#: company/templates/cart.html:108
+msgid "Add Another Address"
+msgstr ""
+
+#: company/templates/cart.html:109
+msgid "Deliver To This Address"
+msgstr ""
+
+#: company/templates/cart.html:123
+msgid "Select Payment"
+msgstr ""
+
+#: company/templates/cart.html:145
+msgid "Add Another Card"
+msgstr ""
+
+#: company/templates/cart.html:146
+msgid "Confirm Rental"
+msgstr "Confirm order"
+
+#: company/templates/cart.html:160
+#, fuzzy
+#| msgid "Rental Order Placed"
+msgid "Rental Order Error"
+msgstr "Order Placed"
+
+#: company/templates/cart.html:163
+msgid ""
+"Your order cannot be placed. Please check that your card has enough found to "
+"make this order, and try later. If the the error remains, please contact us."
+msgstr ""
+"Your order cannot be placed. Please check that your card has enough funds to "
+"complete this order, and try later. If the the error remains, please contact us."
+
+#: company/templates/cart.html:180
+msgid "Rental Order Placed"
+msgstr "Order Placed"
+
+#: company/templates/cart.html:183
+msgid ""
+"Your order has been placed <br>and wil be delivered at your<br> doorsteps in "
+"4-6 hours."
+msgstr ""
+"Your order has been placed <br>we will be delivering your company <br>in the "
+"next 24 hours."
+
+#: company/templates/details.html:13
+msgid "Go back to search results"
+msgstr ""
+
+#: company/templates/details.html:54
+msgid "Features"
+msgstr ""
+
+#: company/templates/details.html:72
+msgid "ADD TO RENT CART"
+msgstr "ADD TO CART"
+
+#: company/templates/details.html:73
+msgid "RENT NOW"
+msgstr ""
+
+#: company/templates/home.html:9
+msgid "Find the right company for you"
+msgstr "Rent the right company for your trip"
+
+#: company/templates/home.html:10
+msgid "We serve in 127 Cities in 54 Countries"
+msgstr "Save Money, Space and Time"
+
+#: company/templates/home.html:36
+msgid "What kind of company are you looking for?"
+msgstr ""
+
+#: company/templates/home.html:48
+msgid "SEARCH"
+msgstr ""
+
+#: company/templates/home.html:56
+msgid "About GetCompany"
+msgstr "About Luggary"
+
+#: company/templates/home.html:58
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo "
+"consequat. Duis"
+msgstr ""
+"At Luggary we take your traveling experience to a whole new level! Rent the "
+"right company and pay only for the days you use them. Don’t spend money on "
+"new company that you only use once a year. Get rid of your old worn out and "
+"damaged company and stop cluttering them in your home. Save money, space, "
+"time and start renting the right company. …. Oh! By the way, we deliver "
+"right at your doorstep :)"
+
+#: company/templates/home.html:64
+msgid "Why rent company?"
+msgstr ""
+
+#: company/templates/home.html:69
+msgid "Occupies too<br> much space"
+msgstr ""
+
+#: company/templates/home.html:75
+msgid "Ditch your old<br> looking suitcase"
+msgstr ""
+
+#: company/templates/home.html:83
+msgid "Save hundreds of dollars and <br> spend it on your actual trip"
+msgstr ""
+
+#: company/templates/home.html:91
+msgid "How it works"
+msgstr ""
+
+#: company/templates/home.html:97
+msgid ""
+"Choose the right company for your trip lorem ipsum dolor sit amet adipising "
+"elit"
+msgstr "Choose the right company for your trip"
+
+#: company/templates/home.html:104
+msgid "Add to cart and checkout lorem ipsum dolor sit amet adipising elit"
+msgstr "Add to cart, Select your dates and checkout"
+
+#: company/templates/home.html:111
+msgid ""
+"We deliver the company at your doorsteps lorem ipsum dolor sit amet "
+"adipising elit"
+msgstr "We deliver your order 24 hrs before your journey"
+
+#: company/templates/home.html:128
+msgid "Amazing!!"
+msgstr "Life Changer!"
+
+#: company/templates/home.html:130
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation ull1"
+msgstr ""
+"I had an emergency trip and didn’t have anything to pack in, Luggary saved "
+"the day! My company was delivered in less than 24 hrs."
+
+#: company/templates/home.html:133
+msgid "Deborah Simmons"
+msgstr "Leonor Martinez"
+
+#: company/templates/home.html:136
+msgid "Photojournalist, Texas"
+msgstr "Entreprenuer, Mexico"
+
+#: company/templates/home.html:145
+msgid "Made life easier!!"
+msgstr ""
+
+#: company/templates/home.html:147
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation ull2"
+msgstr ""
+"I live in a small apartment and my company was taking too much space. My "
+"friend recommended Luggary; I got rid of all my company and now I rent."
+
+#: company/templates/home.html:150
+msgid "Anthony Hopkins"
+msgstr "Seung Cheol"
+
+#: company/templates/home.html:153
+msgid "Backpacker, San Francisco"
+msgstr "Student, Chicago"
+
+#: company/templates/home.html:162
+msgid "Best Service Ever"
+msgstr ""
+
+#: company/templates/home.html:164
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod "
+"tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+"quis nostrud exercitation ull3"
+msgstr ""
+"I love this new concept! No more spending in expensive trendy company! I can "
+"just rent it whenever I need it!"
+
+#: company/templates/home.html:167
+msgid "Jonathan Rogers"
+msgstr "Therese Gotlib"
+
+#: company/templates/home.html:170
+msgid "Blogger, Rio De Janeiro"
+msgstr "Architect, Miami"
+
+#: company/templates/home.html:182
+msgid "Why wait? <strong>Start packing!</strong>"
+msgstr ""
+
+#: company/templates/home.html:183
+msgid "GET STARTED"
+msgstr "RENT NOW"
+
+#: company/templates/login.html:15
+msgid "Signin"
+msgstr "Log in"
+
+#: company/templates/new_password.html:12
+msgid "Reset pasword"
+msgstr "Reset password"
+
+#: company/templates/new_password.html:13
+msgid "Please enter your new password"
+msgstr ""
+
+#: company/templates/new_password.html:18
+msgid "Submit"
+msgstr ""
+
+#: company/templates/new_password.html:21
+msgid "This reset link is no longer valid!"
+msgstr ""
+
+#: company/templates/orders.html:53
+msgid "RETURN THE ITEM"
+msgstr ""
+
+#: company/templates/orders.html:61
+msgid "RETURN ALL ITEMS"
+msgstr ""
+
+#: company/templates/orders.html:67
+msgid "You dont have active orders"
+msgstr "You don't have active orders"
+
+#: company/templates/orders.html:84
+msgid "Request Return Pickup"
+msgstr "Request Pickup"
+
+#: company/templates/orders.html:87
+msgid "Choose a conveninent time for pickup. "
+msgstr ""
+
+#: company/templates/orders.html:93
+msgid "Return Time"
+msgstr ""
+
+#: company/templates/search.html:14
+#, python-format
+msgid ""
+"\n"
+"                    Showing %(from)s-%(to)s of %(count)s results for "
+"%(size)s available at %(country)s, %(region)s %(city)s\n"
+"                    "
+msgstr ""
+
+#: company/templates/search.html:19
+msgid "Refine Search"
+msgstr ""
+
+#: company/templates/search.html:61
+msgid "Nothing found"
+msgstr ""
+
+#: company/templates/search.html:62
+msgid "Try to refine you search criteria"
+msgstr ""
+
+#: company/templates/signup.html:15
+msgid "Signup to get started"
+msgstr "Sign up to get started"
+
+#: project/settings.py:52
+msgid "English"
+msgstr ""
+
+#: project/settings.py:53
+msgid "Spanish"
+msgstr ""

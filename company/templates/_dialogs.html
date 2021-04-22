@@ -1,0 +1,107 @@
+{% load i18n %}
+{% load staticfiles %}
+
+
+<div style="display:none">
+    <div id="reset-success" class="modal_form wide" style="width: 400px;" >
+        <div class="modal-container">
+            <div class="complete">
+                <a class="close-btn" href="#" onClick="parent.jQuery.fancybox.close();"></a>
+                    <form>
+                        <h2 class="text-center">{% trans "Password reset successful" %}</h2>
+                        <br>
+                        <h3 class="text-center">
+                            {% trans "We've emailed you instructions for setting your password. You should be receiving them shortly." %}<br>
+                            <br>
+                            {% trans "If you don't receive an email, please make sure you've entered the address you registered with, and check your spam folder." %}
+                        </h3>
+                        <br>
+                        <div class="text-center">
+                            <a class="btn btn-lg btn-primary" onClick="parent.jQuery.fancybox.close();" id="register-complete-button" href="#">Close</a>
+                        </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div style="display:none">
+    <div id="reset-popup" class="modal_form">
+        <div class="modal-container">
+            <div class="complete">
+                <a class="close-btn" href="#" onClick="parent.jQuery.fancybox.close();"></a>
+                <form id="reset-form" action="{% url 'api_reset' %}" method="post" role="form"
+                      parsley-use-html5-constraints="false" novalidate="">
+                    {% csrf_token %}
+                    <h2>{% trans "Reset your password" %}</h2>
+                    <br>
+                    <div class="msg"></div>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="{% trans "Email" %}" required="" autocomplete="off"
+                           parsley-type="email" parsley-maxlength="150" parsley-required="true" />
+                    <button type="submit" id="register-submit" class="btn">{% trans "RESET" %}</button>
+                    <div class="text-center">
+                        <p>{% trans "Already have an account?" %} <a href="#signin-checkout" class="open_popup">{% trans "Sign in" %}</a><p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display:none">
+    <div id="signup-checkout" class="modal_form">
+        <div class="modal-container">
+            <div class="complete">
+                <a class="close-btn" href="#" onClick="parent.jQuery.fancybox.close();"></a>
+                <form id="register-form" action="{% url 'register' %}" method="post" role="form"
+                      parsley-use-html5-constraints="false" novalidate="">
+                    {% csrf_token %}
+                    <h2>{% trans "Signup to checkout" %}</h2>
+                    <br>
+                    <div class="msg"></div>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="{% trans "Email" %}" required="" autocomplete="off"
+                           parsley-type="email"
+                           parsley-maxlength="150" parsley-required="true"
+                           parsley-remote="{% url 'email_validation' %}"/>
+                    <input type="phone" name="phone" class="form-control" placeholder="{% trans "Phone" %}" autocomplete="off"
+                           parsley-maxlength="16" parsley-required="true"/>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="{% trans "Password" %}"  autocomplete="off"
+                           parsley-minlength="5" parsley-maxlength="150" parsley-required="true"/>
+                    <button type="submit" id="register-submit" class="btn">{% trans "SIGNUP" %}</button>
+                    <div class="text-center">
+                        <p>{% trans "Already have an account?" %} <a href="#signin-checkout" class="open_popup">{% trans "Sign in" %}</a><p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="display:none">
+    <div id="signin-checkout" class="modal_form">
+        <div class="modal-container">
+            <div class="complete">
+                <a class="close-btn" href="#" onClick="parent.jQuery.fancybox.close();"></a>
+                <form id="login-form" action="{% url 'login' %}" method="post" role="form"
+                      parsley-use-html5-constraints="false" novalidate="" >
+                    {% csrf_token %}
+                    <h2>{% trans "Signin to checkout" %}</h2>
+                    <br>
+                    <div class="msg"></div>
+                    <input type="email" id="login" name="email" class="form-control" placeholder="{% trans "Email" %}" required="" autocomplete="off"
+                           parsley-maxlength="50" parsley-required="true" parsley-type="email"/>
+                    <input type="password" id="password" name="password" minlength="8" class="form-control" placeholder="{% trans "Password" %}" required="" autocomplete="off"
+                           parsley-required="true">
+                    <button type="submit" id="login-submit" class="btn">{% trans "SIGNIN" %}</button>
+                    <div class="text-center">
+                        <p>{% trans "Don’t have an account?" %} <a href="#signup-checkout" class="open_popup">{% trans "Signup" %}</a><p>
+                        <p><a href="#reset-popup" class="open_popup">{% trans "Forgot Password?" %}</a><p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
